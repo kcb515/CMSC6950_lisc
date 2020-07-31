@@ -35,4 +35,4 @@ counts.add_terms(terms_b, dim='B')
 counts.run_collection()
 
 # Save out the counts object
-save_object(counts, 'tutorial_counts', directory=SCDB('lisc_db'))
+save_object(counts, 'tutorial_counts', directory=SCDB('tutorial'))
