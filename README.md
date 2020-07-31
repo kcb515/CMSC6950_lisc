@@ -1,8 +1,8 @@
-%Overview
+# Overview
 
 Lisc is a tool used for collecting data about scientific artiles and doing analysis on the collected data.
 
-%Requirements
+# Requirements
 
 This package requires an API from:
 
