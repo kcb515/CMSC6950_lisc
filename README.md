@@ -11,10 +11,15 @@ NCBI EUtils, provides access to Pubmed database. or OpenCitations, provdes acces
 Python 3.5 or greater numpy requests lxml beautifulsoup4 nltk
 
 Optional: 
+
 matplotlib
+
 seabourn 
+
 scipy 
+
 wordcloud 
+
 pytest
 
 Install:
