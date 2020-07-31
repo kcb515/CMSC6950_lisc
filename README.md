@@ -14,4 +14,6 @@ Optional: matplotlib seabourn scipy wordcloud pytest
 
 Install:
 
-pip install lisc conda install -c conda-forge lisc
+pip install lisc 
+
+conda install -c conda-forge lisc
