@@ -54,6 +54,3 @@ counts.compute_score('association')
 print(counts.score)
 # Plot a matrix of the association index data
 plot_matrix(counts.score, counts.terms['B'].labels, counts.terms['A'].labels)
-
-# Plot a dendrogram, to cluster the terms
-plot_dendrogram(counts.score, counts.terms['B'].labels)
