@@ -6,3 +6,5 @@ counts.png: plot.py
 
 document.png: plot2.py
 	python3 plot.py
+
+test.py: python3 test.py

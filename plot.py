@@ -3,13 +3,6 @@ import pandas as pd
 from pandas import Series, DataFrame
 import matplotlib.pyplot as plt
 
-terms = ['frontal lobe', 'temporal lobe', 'parietal lobe', 'occipital lobe']
-plt.bar(terms, [14496, 28219, 5099, 3822])
-plt.xlabel('Term')
-plt.ylabel('Documents')
-plt.title('The number of documents found for each search term')
-plt.show()
-plt.savefig('document.png')
 
 terms = ['frontal lobe', 'temporal lobe', 'parietal lobe', 'occipital lobe']
 counts1 = [0, 1842, 808, 521]
