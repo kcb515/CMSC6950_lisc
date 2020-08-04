@@ -1,4 +1,4 @@
-report.pdf: report.tex counts.png document.png
+report.pdf: report.tex counts.png document.png organism.png
 	pdflatex $<
 
 counts.png: plot.py
@@ -7,14 +7,20 @@ counts.png: plot.py
 document.png: plot2.py
 	python3 plot2.py
 
-test.py: python3 test.py
+organism.png: plot3.py
+	python3 plot3.py
+
+data1.py: python3 data1.py
+
+data2.py: python3 data2.py
+
+
 
 .PHONY: clean almost_clean
 
 clean: almost_clean
-	rm report.pdf
-	rm counts.png
-	rm document.png
+	rm *.pdf
+	rm *.png
 
 almost_clean:
 	latexmk -c
