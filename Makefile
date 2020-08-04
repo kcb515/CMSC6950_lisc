@@ -1,5 +1,5 @@
 report.pdf: report.tex counts.png document.png
-	latexmk -pdf
+	pdflatex $<
 
 counts.png: plot.py
 	python3 plot.py
