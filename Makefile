@@ -14,8 +14,6 @@ data1.py: python3 data1.py
 
 data2.py: python3 data2.py
 
-
-
 .PHONY: clean almost_clean
 
 clean: almost_clean
