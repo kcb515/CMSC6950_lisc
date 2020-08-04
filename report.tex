@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[12pt, letterpaper]{article}
 \usepackage{graphicx}
 
 \title{Lisc Python Package}
@@ -14,33 +14,33 @@
 Lisc collects and analyzes data form the NCIB database. This data can be counts and co-occurrences of search terms in the literature, text data and meta-data from articles that contain the search terms and can be used to collect citation data from DOIs. This data can be managed through data objects, saved, loaded and ploted.
 
 \section{Data}
-Using this package you can collect the counts data for the word co-occurrence data between terms as seen in ~\ref{fig:1}.
+Using this package you can collect the counts data for the word co-occurrence data between terms as seen in Figure~\ref{fig:counts}.
 
 % 
 \begin{figure} 
   \centering 
-  \includegraphics[width=0.9/textwidth]{counts.png}
+  \includegraphics[width=0.9\textwidth]{counts}
   \caption{Matplotlib bar graph of the number of counts for word co-occurrence in the search term list.} 
-  \label{fig:1}
+  \label{fig:counts}
 \end{figure}
 %
 
-We can also look at how many articals contain each of the specified search terms ~\ref{fig:2}
+We can also look at how many articles contain each of the specified search terms Figure~\ref{fig:document}
 %
 \begin{figure}
   \centering
-  \includegraphics[width=0.9/textwidth]{document.png}
+  \includegraphics[width=0.9\textwidth]{document}
   \caption{Matplotlib bar graph of the number of documents found for each search term.}
-  \label{fig:2}
+  \label{fig:document}
 \end{figure}
 %
-Another example of this packages function is it's ability to change NCIB databases, the above figures used the Pubmed database and ~\ref{fig:3} uses the Nucleotide database. The example searched for five orgainisms and returned the number of articles that contained the search terms.
+Another example of this packages function is it's ability to change NCIB databases, the above figures used the Pubmed database and Figure~\ref{fig:organism} uses the Nucleotide database. The example searched for five orgainisms and returned the number of articles that contained the search terms.
 %
 \begin{figure}
   \centering
-  \includegraphics[width=0.9/textwidth]{organism.png}
-  \caption{Matplotlib graph of th e number of articles that contain "Salmonella enterica" "Escherichia coli" "Sus scrofa" "Homo sapiens" and "Mus musculus".}
-  \label{fig:3}
+  \includegraphics[width=0.9\textwidth]{organism}
+  \caption{Matplotlib graph of the number of articles that contain "Salmonella enterica", "Escherichia coli", "Sus scrofa", "Homo sapiens", and "Mus musculus".}
+  \label{fig:organism}
 \end{figure}
 %
 \section{Conclusions}
