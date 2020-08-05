@@ -15,13 +15,13 @@ width = 0.35  # the width of the bars
 
 
 fig, ax = plt.subplots()
-rects1 = ax.bar(x - width/2, counts1, width, label='Term List 1')
-rects2 = ax.bar(x + width/2, counts2, width, label='Term List 2')
-rects1 = ax.bar(x - width/2, counts3, width, label='Term List 3')
-rects2 = ax.bar(x + width/2, counts4, width, label='Term list 4')
+rects1 = ax.bar(x - width/2, counts1, width, label='Frontal Lobe')
+rects2 = ax.bar(x + width/2, counts2, width, label='Temporal Lobe')
+rects1 = ax.bar(x - width/2, counts3, width, label='Parietal Lobe')
+rects2 = ax.bar(x + width/2, counts4, width, label='Occipital Lobe')
 
-ax.set_ylabel('Counts')
-ax.set_title('Counts for each Term List')
+ax.set_ylabel('Co-occurence')
+ax.set_title('Co-occurence for each Term List')
 ax.set_xticks(x)
 ax.set_xticklabels(terms)
 ax.legend()
