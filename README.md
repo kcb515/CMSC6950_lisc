@@ -4,10 +4,6 @@ Lisc is a tool used for collecting data about scientific artiles and doing analy
 
 # Requirements
 
-This package requires an API from:
-
-NCBI EUtils, provides access to Pubmed database. or OpenCitations, provdes acces to citation data.
-
 Python 3.5 or greater
 
 numpy 
@@ -38,6 +34,9 @@ pip install lisc
 
 conda install -c conda-forge lisc
 
+# To use:
+
+Run make to generate report.
 # Citation:
 
 Donoghue, T. (2018)  LISC: A Python Package for Scientific Literature Collection and Analysis.
