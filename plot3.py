@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-terms = ['Escherichia coli','Sus scrofa','Homo sapiens','Mus musculus','Salmonella enterica']
+terms = ['Salmonella enterica','Sus scrofa','Homo sapiens','Mus musculus','Escherichia coli']
 plt.bar(terms, [2940420,11455876,3751565,47509715,11515320])
 plt.xlabel('Organism')
 plt.ylabel('Number of Articles')
