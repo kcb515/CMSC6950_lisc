@@ -8,7 +8,7 @@ terms = [['frontal lobe'], ['temporal lobe'], ['parietal lobe'], ['occipital lob
 
 # Initialize counts object & add the terms that we want to collect co-occurrences for
 counts = Counts()
-counts.add_terms(terms)\
+counts.add_terms(terms)
 
 # Collect co-occurrence data
 counts.run_collection(verbose=True)
