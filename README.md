@@ -2,6 +2,8 @@
 
 Lisc is a tool used for collecting data about scientific artiles and doing analysis on the collected data.
 
+https://lisc-tools.github.io/lisc/
+
 # Requirements
 
 Python 3.5 or greater
@@ -18,9 +20,9 @@ nltk
 
 seabourn
 
-Optional: 
+matplotlib
 
-matplotlib 
+Optional:  
 
 scipy 
 
@@ -36,7 +38,8 @@ conda install -c conda-forge lisc
 
 # To use:
 
-Run make to generate report.
+Clone this repository and run make to generate report.
+
 # Citation:
 
 Donoghue, T. (2018)  LISC: A Python Package for Scientific Literature Collection and Analysis.
